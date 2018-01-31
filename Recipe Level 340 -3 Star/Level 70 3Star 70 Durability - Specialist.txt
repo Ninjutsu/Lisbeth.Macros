@@ -1,7 +1,7 @@
 Name: Level 70 3Star 70 Durability - Specialist
 Priority: 0
 Enabled: True
-Conditions: MaxDurability == 70 && MaxProgress == 3548 && Craftsmanship >= 1500 && Control >= 1350 && Cp >= 538 && RecipeDisplayLevel == 70 && Specialized == True
+Conditions: MaxDurability == 70 && MaxProgress == 3548 && Craftsmanship >= 1500 && Control >= 1350 && Cp >= 523 && RecipeDisplayLevel == 70 && Specialized == True
 
 S1:
 - Initial Preparations
