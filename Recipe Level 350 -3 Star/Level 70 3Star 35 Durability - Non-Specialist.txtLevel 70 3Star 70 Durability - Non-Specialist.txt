@@ -26,7 +26,7 @@ S1:
 - Steady Hand
 - Piece by Piece
 - Innovation
-- Tricks of the Trade > Great Strides
+- Great Strides
 
 S2: Condition == Excellent
 - Byregot's Blessing

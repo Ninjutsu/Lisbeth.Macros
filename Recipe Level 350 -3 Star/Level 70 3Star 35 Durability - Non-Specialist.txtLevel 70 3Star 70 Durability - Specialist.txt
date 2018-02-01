@@ -27,7 +27,7 @@ S1:
 - Focused Touch
 - Steady Hand
 - Innovation
-- Tricks of the Trade > Great Strides
+- Great Strides
 
 S2: Condition == Excellent
 - Byregot's Blessing
