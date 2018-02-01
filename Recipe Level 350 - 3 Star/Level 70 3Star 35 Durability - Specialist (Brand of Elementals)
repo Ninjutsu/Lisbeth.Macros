@@ -1,0 +1,32 @@
+Name: Level 70 3Star 35 Durability - Specialist (Brand of Elementals)
+Priority: 0
+Enabled: True
+Conditions: MaxDurability == 35 && MaxProgress == 2365 && Craftsmanship >= 1605 && Control >= 1556 && Cp >= 520 && RecipeDisplayLevel == 70 && Specialized == True
+
+S1:
+- Initial Preparations
+- Comfort Zone
+- Inner Quiet
+- Specialty: Reflect
+- Steady Hand II
+- Prudent Touch
+- Prudent Touch
+- Prudent Touch
+- Prudent Touch
+- Prudent Touch
+- Manipulation II
+- Name of Earth
+- Comfort Zone
+- Steady Hand II
+- Ingenuity II
+- Brand of Earth
+- Brand of Earth
+- Prudent Touch
+- Steady Hand II
+- Prudent Touch
+- Innovation
+- Great Strides
+- Ingenuity II
+- Byregot's Blessing
+- Observe
+- Focused Synthesis
