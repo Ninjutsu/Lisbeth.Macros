@@ -1,4 +1,4 @@
-Name: (320) ArcticWolfFox's Specialist D70 - 514 CP
+Name: (320) ArcticWhiteFox's Specialist D70 - 514 CP
 Priority: 1
 Enabled: True
 Conditions: Cp >= 514 && MaxDurability == 70 && DisplayedLevelDifference <= 1 && Specialized == True
