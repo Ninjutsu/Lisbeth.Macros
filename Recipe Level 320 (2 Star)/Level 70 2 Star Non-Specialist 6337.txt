@@ -65,17 +65,17 @@ S1:
 - Inner Quiet
 - Manipulation II
 - Steady Hand II
-- Prudent Touch 
-- Prudent Touch 
-- Prudent Touch 
-- Prudent Touch 
-- Prudent Touch 
+- Prudent Touch
+- Prudent Touch
+- Prudent Touch
+- Prudent Touch
+- Prudent Touch
 - Steady Hand II
 - Comfort Zone
-- Prudent Touch 
-- Prudent Touch 
-- Prudent Touch 
-- Prudent Touch 
+- Prudent Touch
+- Prudent Touch
+- Prudent Touch
+- Prudent Touch
 - Steady Hand II
 - Ingenuity II
 - Innovation
