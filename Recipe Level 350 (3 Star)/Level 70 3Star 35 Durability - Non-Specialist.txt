@@ -26,6 +26,15 @@ S1:
 - Basic Touch
 - Great Strides
 - Innovation
+
+S2: Condition == Excellent
+- Byregot's Blessing
+- Ingenuity II
+- Careful Synthesis II
+- Careful Synthesis II
+- Careful Synthesis II
+
+S3:
 - Ingenuity II
 - Byregot's Blessing
 - Careful Synthesis II

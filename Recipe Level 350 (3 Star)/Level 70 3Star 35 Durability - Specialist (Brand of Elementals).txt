@@ -1,7 +1,7 @@
 Name: Level 70 3Star 35 Durability - Specialist (Brand of Elementals)
 Priority: 0
 Enabled: True
-Conditions: MaxDurability == 35 && MaxProgress == 2365 && Craftsmanship >= 1605 && Control >= 1556 && Cp >= 520 && RecipeDisplayLevel == 70 && Specialized == True
+Conditions: MaxDurability == 35 && MaxProgress == 2365 && Craftsmanship >= 1605 && Control >= 1587 && Cp >= 525 && RecipeDisplayLevel == 70 && Specialized == True
 
 S1:
 - Initial Preparations
