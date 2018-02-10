@@ -1,0 +1,32 @@
+Name: Level 70 80 Durability - General
+Priority: 0
+Enabled: False
+Conditions: MaxDurability == 80 && Craftsmanship >= 887 && Control >= 1011 && Cp >= 474 && RecipeDisplayLevel >= 60
+
+S1: 
+- Muscle Memory
+- Comfort Zone
+- Inner Quiet
+- Steady Hand II
+- Prudent Touch
+- Prudent Touch
+- Prudent Touch
+- Prudent Touch
+- Prudent Touch
+- Manipulation II
+- Steady Hand II
+- Prudent Touch
+- Prudent Touch
+- Prudent Touch
+- Prudent Touch
+- Careful Synthesis II
+- Steady Hand
+- Great Strides
+
+S2: 
+- Tricks of the Trade > Ingenuity II
+- Byregot's Blessing
+- Careful Synthesis III
+- Careful Synthesis III
+- Careful Synthesis III > Careful Synthesis II
+- Careful Synthesis III > Careful Synthesis II
