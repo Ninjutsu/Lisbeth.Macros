@@ -1,7 +1,7 @@
 Name: Level 70 3Star 70 Durability - Non-Specialist
 Priority: 0
 Enabled: True
-Conditions: MaxDurability == 70 && MaxProgress == 3548 && Craftsmanship >= 1511 && Control >= 1350 && Cp >= 542 && RecipeDisplayLevel == 70 && Specialized == False
+Conditions: MaxDurability == 70 && MaxProgress == 3548 && Craftsmanship >= 1510 && Control >= 1460 && Cp >= 538 && RecipeDisplayLevel == 70 && Specialized == False
 
 S1:
 - Muscle Memory
