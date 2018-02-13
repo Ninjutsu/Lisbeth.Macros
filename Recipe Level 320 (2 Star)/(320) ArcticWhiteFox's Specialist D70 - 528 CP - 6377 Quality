@@ -1,7 +1,7 @@
 Name: (320) ArcticWhiteFox's Specialist D70 - 528 CP - 6377 Quality
 Priority: 0
 Enabled: True
-Conditions: MaxDurability == 70 && MaxProgress == 6377 && Craftsmanship >= 1363 && Control >= 1263 && Cp >= 528 && RecipeDisplayLevel == 70 && Specialist == True
+Conditions: MaxDurability == 70 && MaxProgress == 6377 && Craftsmanship >= 1363 && Control >= 1263 && Cp >= 528 && RecipeDisplayLevel == 70 && Specialized == True
 
 S1: 
 - Maker's Mark

@@ -1,7 +1,7 @@
 Name: Lvl 70 2 Star Non-Specialist 6377
 Priority: 0
 Enabled: False
-Conditions: MaxDurability == 70 && MaxProgress == 6377 && Craftsmanship >= 1320 && Control >= 1220 && Cp >= 500 && RecipeDisplayLevel == 70 && Specialist == False
+Conditions: MaxDurability == 70 && MaxProgress == 6377 && Craftsmanship >= 1320 && Control >= 1220 && Cp >= 500 && RecipeDisplayLevel == 70 && Specialized == False
 
 S1: 
 - Maker's Mark
