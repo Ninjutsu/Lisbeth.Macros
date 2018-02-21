@@ -1,7 +1,7 @@
 Name: (320) Darth's D70 - 500 CP
 Priority: 0
 Enabled: True
-Conditions: MaxDurability == 70 && MaxProgress == 6377 && Craftsmanship >= 1500 && Control >= 1448 && Cp >= 500 && RecipeDisplayLevel == 70
+Conditions: Specialized == true && MaxDurability == 70 && MaxProgress == 6377 && Craftsmanship >= 1500 && Control >= 1448 && Cp >= 500 && RecipeDisplayLevel == 70
 
 s1: 
 - Initial Preparations
