@@ -1,7 +1,7 @@
 Name: (320) Demanufacture's D70 - 525 CP
-Priority: 0
+Type: Craft
 Enabled: False
-Conditions: MaxDurability == 70 && MaxProgress == 6377 && Craftsmanship >= 1320 && Control >= 1220 && Cp >= 525 && RecipeDisplayLevel == 70
+Conditions: (MaxDurability == 70 && MaxProgress == 6377 && Craftsmanship >= 1320 && Control >= 1220 && Cp >= 525 && RecipeLevel == 320)
 
 S1: 
 - Maker's Mark
@@ -60,32 +60,14 @@ S1:
 - Flawless Synthesis
 - Flawless Synthesis
 - Flawless Synthesis
-
-S2: Progress < 6138
-- Flawless Synthesis
-
-S3: Progress < 6138
-- Flawless Synthesis
-
-S4: Progress < 6138
-- Flawless Synthesis
-
-S5: Progress < 6138
-- Flawless Synthesis
-
-S6: Progress < 6138
-- Flawless Synthesis
-
-S7: Progress < 6138
-- Flawless Synthesis
-
-S8: Progress < 6138
-- Flawless Synthesis
-
-S9: Progress < 6138
-- Flawless Synthesis
-
-S10:
+- (Progress < 6138) Flawless Synthesis
+- (Progress < 6138) Flawless Synthesis
+- (Progress < 6138) Flawless Synthesis
+- (Progress < 6138) Flawless Synthesis
+- (Progress < 6138) Flawless Synthesis
+- (Progress < 6138) Flawless Synthesis
+- (Progress < 6138) Flawless Synthesis
+- (Progress < 6138) Flawless Synthesis
 - Comfort Zone
 - Inner Quiet
 - Manipulation II
@@ -109,11 +91,11 @@ S10:
 - Innovation
 - Prudent Touch
 
-S11: Condition == Excellent
+S2: (IsExcellent == true)
 - Byregot's Blessing
 - Careful Synthesis II
 
-S12:
+S3:
 - Great Strides
 - Byregot's Blessing
 - Careful Synthesis II

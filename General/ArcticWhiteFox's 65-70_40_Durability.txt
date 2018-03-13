@@ -1,7 +1,7 @@
-Name: Level 70 40 Durability - General
+Name: 65-70 40 Durability
 Type: Craft
 Enabled: False
-Conditions: (MaxDurability == 40 && RecipeDisplayLevel >= 60)
+Conditions: (MaxDurability <= 40 && MaxProgress == 1500 && RecipeDisplayLevel >= 60 && Cp >= 440)
 
 S1: 
 - Comfort Zone
@@ -13,22 +13,18 @@ S1:
 - Prudent Touch
 - Prudent Touch
 - Manipulation II
-=> S2 (Quality < 9000)
-=> S3
-
-S2:
 - Steady Hand II
 - Prudent Touch
 - Prudent Touch
 - Prudent Touch
 - Prudent Touch
-
-S3:
 - Steady Hand
 - Great Strides
-- (IsGoodOrExcellent == true) Tricks of the Trade | Ingenuity II
+- Ingenuity II
 - Byregot's Blessing
 - Careful Synthesis III
 - Careful Synthesis III
 - Careful Synthesis III
-- Careful Synthesis II
+
+
+

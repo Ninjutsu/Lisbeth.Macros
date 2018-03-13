@@ -1,7 +1,7 @@
 Name: (320) ArcticWhiteFox's Specialist D70 - 528 CP - 6377 Quality
-Priority: 0
+Type: Craft
 Enabled: True
-Conditions: MaxDurability == 70 && MaxProgress == 6377 && Craftsmanship >= 1363 && Control >= 1263 && Cp >= 528 && RecipeDisplayLevel == 70 && Specialized == True
+Conditions: (MaxDurability == 70 && MaxProgress == 6377 && Craftsmanship >= 1363 && Control >= 1263 && Cp >= 528 && RecipeLevel == 320 && Specialized == True)
 
 S1: 
 - Maker's Mark
@@ -82,8 +82,19 @@ S1:
 - Steady Hand II
 - Innovation
 - Prudent Touch
-- Tricks of the Trade > Great Strides
+=> S3 (IsGoodOrExcellent == true)
+
+S2:
+- Great Strides
 - Byregot's Blessing
 - Observe
 - Focused Synthesis
+=> S4
+
+S3:
+- Byregot's Blessing
+- Observe
+- Focused Synthesis
+
+S4:
 

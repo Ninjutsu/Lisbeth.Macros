@@ -1,7 +1,7 @@
 Name: Level 60 - 65 Recipes 80 Durability
-Priority: 0
+Type: Craft
 Enabled: True
-Conditions: MaxDurability > 60 && RecipeDisplayLevel >= 60 && RecipeDisplayLevel <= 65
+Conditions: (MaxDurability == 80 && RecipeDisplayLevel >= 60 && RecipeDisplayLevel <= 65)
 
 S1: 
 - Muscle Memory
@@ -25,42 +25,31 @@ S1:
 - Hasty Touch
 - Hasty Touch
 - Hasty Touch
-
-S2: 
 - Steady Hand
 - Ingenuity II
+=> S3 (IsExcellent == true)
+=> S4
 
-S3: Condition == Excellent
+S3:
 - Byregot's Blessing
 - Careful Synthesis II
 - Careful Synthesis II
 - Careful Synthesis II
 - Careful Synthesis II
 
-S3: Condition == Good
+S4:
 - Great Strides
+=> S5 (IsGoodOrExcellent == true)
+=> S6
 
-S3: Condition == Normal
-- Great Strides
-
-S3: Condition == Poor
-- Great Strides
-
-S4: Condition == Excellent
+S5:
 - Byregot's Blessing
 - Careful Synthesis II
 - Careful Synthesis II
 - Careful Synthesis II
 - Careful Synthesis II
 
-S4: Condition == Good
-- Byregot's Blessing
-- Careful Synthesis II
-- Careful Synthesis II
-- Careful Synthesis II
-- Careful Synthesis II
-
-S4: Condition == Normal
+S6:
 - Innovation
 - Byregot's Blessing
 - Careful Synthesis II

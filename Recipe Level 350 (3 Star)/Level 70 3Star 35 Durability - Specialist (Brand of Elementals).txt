@@ -1,7 +1,7 @@
 Name: Level 70 3Star 35 Durability - Specialist (Brand of Elementals)
-Priority: 0
-Enabled: True
-Conditions: MaxDurability == 35 && MaxProgress == 2365 && Craftsmanship >= 1605 && Control >= 1587 && Cp >= 525 && RecipeDisplayLevel == 70 && Specialized == True
+Type: Craft
+Enabled: False
+Conditions: (MaxDurability == 35 && MaxProgress == 2365 && Craftsmanship >= 1605 && Control >= 1587 && Cp >= 525 && RecipeLevel == 350 && Specialized == True)
 
 S1:
 - Initial Preparations
@@ -15,12 +15,12 @@ S1:
 - Prudent Touch
 - Prudent Touch
 - Manipulation II
-- Name of Earth
+- (IsAspectEarth == true) Name of Earth | (IsAspectFire == true) Name of Fire | (IsAspectWater == true) Name of Water | (IsAspectIce == true) Name of Ice | (IsAspectWind == true) Name of Wind | (IsAspectLightning == true) Name of Lightning
 - Comfort Zone
 - Steady Hand II
 - Ingenuity II
-- Brand of Earth
-- Brand of Earth
+- (IsAspectEarth == true) Brand of Earth | (IsAspectFire == true) Brand of Fire | (IsAspectWater == true) Brand of Water | (IsAspectIce == true) Brand of Ice | (IsAspectWind == true) Brand of Wind | (IsAspectLightning == true) Brand of Lightning
+- (IsAspectEarth == true) Brand of Earth | (IsAspectFire == true) Brand of Fire | (IsAspectWater == true) Brand of Water | (IsAspectIce == true) Brand of Ice | (IsAspectWind == true) Brand of Wind | (IsAspectLightning == true) Brand of Lightning
 - Prudent Touch
 - Steady Hand II
 - Prudent Touch

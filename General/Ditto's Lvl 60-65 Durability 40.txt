@@ -1,54 +1,44 @@
-Name: Level 60 -65 Recipes 40 Durability
-Priority: 0
+Name: Level 60-65 Recipes 40 Durability
+Type: Craft
 Enabled: True
-Conditions: MaxDurability == 40 && RecipeDisplayLevel >= 60 && RecipeDisplayLevel <= 65
+Conditions: (MaxDurability == 40 && RecipeDisplayLevel >= 60 && RecipeDisplayLevel <= 65)
 
 S1: 
 - Comfort Zone
 - Inner Quiet
 - Waste Not II
 - Steady Hand II
-- Precise Touch > Basic Touch
-- Precise Touch > Basic Touch
-- Precise Touch > Basic Touch
-- Precise Touch > Basic Touch
-- Precise Touch > Basic Touch
-- Precise Touch > Basic Touch
-- Precise Touch > Basic Touch
+- (IsGoodOrExcellent == true) Precise Touch | Basic Touch
+- (IsGoodOrExcellent == true) Precise Touch | Basic Touch
+- (IsGoodOrExcellent == true) Precise Touch | Basic Touch
+- (IsGoodOrExcellent == true) Precise Touch | Basic Touch
+- (IsGoodOrExcellent == true) Precise Touch | Basic Touch
+- (IsGoodOrExcellent == true) Precise Touch | Basic Touch
+- (IsGoodOrExcellent == true) Precise Touch | Basic Touch
 - Master's Mend
-
-S2: 
 - Steady Hand
 - Ingenuity II
+=> S2 (IsExcellent == true)
+=> S3
 
-S3: Condition == Excellent
+S2:
 - Byregot's Blessing
 - Careful Synthesis II
 - Careful Synthesis II
 - Careful Synthesis II
 
-S3: Condition == Good
+S3:
 - Great Strides
+=> S4 (IsGoodOrExcellent == true)
+=> S5
 
-S3: Condition == Normal
-- Great Strides
-
-S3: Condition == Poor
-- Great Strides
-
-S4: Condition == Excellent
+S4:
 - Byregot's Blessing
 - Careful Synthesis II
 - Careful Synthesis II
 - Careful Synthesis II
 
-S4: Condition == Good
-- Byregot's Blessing
-- Careful Synthesis II
-- Careful Synthesis II
-- Careful Synthesis II
-
-S4: Condition == Normal
+S5: Condition == Normal
 - Innovation
 - Byregot's Blessing
 - Careful Synthesis II

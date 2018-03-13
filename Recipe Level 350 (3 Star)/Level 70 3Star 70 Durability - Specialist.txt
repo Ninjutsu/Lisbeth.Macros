@@ -1,7 +1,7 @@
 Name: Level 70 3Star 70 Durability - Specialist
-Priority: 0
-Enabled: True
-Conditions: MaxDurability == 70 && MaxProgress == 3548 && Craftsmanship >= 1500 && Control >= 1381 && Cp >= 538 && RecipeDisplayLevel == 70 && Specialized == True
+Type: Craft
+Enabled: False
+Conditions: (MaxDurability == 70 && MaxProgress == 3548 && Craftsmanship >= 1500 && Control >= 1381 && Cp >= 538 && RecipeLevel == 350 && Specialized == True)
 
 S1:
 - Initial Preparations
@@ -29,7 +29,7 @@ S1:
 - Innovation
 - Great Strides
 
-S2: Condition == Excellent
+S2: (IsExcellent == true)
 - Byregot's Blessing
 - Ingenuity II
 - Observe

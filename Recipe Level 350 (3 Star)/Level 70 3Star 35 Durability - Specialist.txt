@@ -1,7 +1,7 @@
 Name: Level 70 3Star 35 Durability - Specialist
-Priority: 0
-Enabled: True
-Conditions: MaxDurability == 35 && MaxProgress == 2365 && Craftsmanship >= 1500 && Control >= 1350 && Cp >= 524 && RecipeDisplayLevel == 70 && Specialized == True
+Type: Craft
+Enabled: False
+Conditions: (MaxDurability == 35 && MaxProgress == 2365 && Craftsmanship >= 1500 && Control >= 1350 && Cp >= 524 && RecipeLevel == 350 && Specialized == True)
 
 S1:
 - Initial Preparations
@@ -27,7 +27,14 @@ S1:
 - Prudent Touch
 - Ingenuity II
 - Innovation
-- Tricks of the Trade > Great Strides
+
+S2: (IsExcellent == true)
+- Byregot's Blessing
+- Observe
+- Focused Synthesis
+
+S3:
+- Great Strides
 - Byregot's Blessing
 - Observe
 - Focused Synthesis
