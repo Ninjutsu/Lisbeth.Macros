@@ -38,7 +38,7 @@ S4:
 - Careful Synthesis II
 - Careful Synthesis II
 
-S5: Condition == Normal
+S5:
 - Innovation
 - Byregot's Blessing
 - Careful Synthesis II
