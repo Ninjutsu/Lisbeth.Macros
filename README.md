@@ -207,6 +207,8 @@ int Manipulation2Aura
 int IngenuityAura
 int Ingenuity2Aura
 int InitialPreparationsAura
+
+int RemainingCp (cp + CZ stacks * 8)
 ```
 
 ## Gathering Macros
