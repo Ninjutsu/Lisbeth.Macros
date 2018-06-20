@@ -95,6 +95,3 @@ S3:
 - Byregot's Blessing
 - Observe
 - Focused Synthesis
-
-S4:
-
