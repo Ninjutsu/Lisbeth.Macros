@@ -22,7 +22,7 @@ S1:
 - Initial Preparations
 - Comfort Zone
 - Inner Quiet
-- Specialty: Reflect
+- Specialty Reflect
 - Steady Hand II
 - Manipulation II
 - Piece by Piece
@@ -62,6 +62,8 @@ Here is what the macro's properties do:
 * **Enabled:** This enables the macro as an override. You don't need to enable the macro to use it directly on an order's individual settings.
 * **Conditions:** These conditions are checked when searching for a macro to use it as an override. Conditions can only have logical AND (&&) statements and must be inside parentheses. 
 
+ **NOTE** Specialty skills should not be typed with the ":" symbol. Just remove that symbol from their name.
+
 ## Labels
 
 As you can see from the example above, you can write multiple **segments** with skills, and give each one a label (i.e. S1, S2). Right beside the label, on the same line, you can add a conditional that uses the same syntax as the macro's general conditional property:
@@ -82,7 +84,7 @@ S1:
 - Initial Preparations
 - Comfort Zone
 - Inner Quiet
-- Specialty: Reflect
+- Specialty Reflect
 - Steady Hand II
 - Manipulation II
 - Piece by Piece
