@@ -43,6 +43,3 @@ S3:
 - Careful Synthesis III
 - Careful Synthesis III
 - Careful Synthesis III
-
-S4:
-
